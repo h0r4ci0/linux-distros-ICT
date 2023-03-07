@@ -30,22 +30,22 @@
           </p>
           <!-- Countdown -->
           <div class="countdown flex">
-            <span>Empieza en:</span>
+            <span>Remaining time until vacation:</span>
             <div class="flex">
               <p class="countdown-item flex">
-                <span class="countdown-number">03</span>
+                <span id="days" class="countdown-number">03</span>
                 <span class="countdown-letter">D</span>
               </p>
               <p class="countdown-item flex">
-                <span class="countdown-number">11</span>
+                <span id="hours" class="countdown-number">11</span>
                 <span class="countdown-letter">H</span>
               </p>
               <p class="countdown-item flex">
-                <span class="countdown-number">48</span>
+                <span id="minutes" class="countdown-number">48</span>
                 <span class="countdown-letter">M</span>
               </p>
               <p class="countdown-item flex">
-                <span class="countdown-number">19</span>
+                <span id="seconds" class="countdown-number">19</span>
                 <span class="countdown-letter">S</span>
               </p>
             </div>
@@ -90,10 +90,13 @@
       </div>
     </section>
     <section id="buttons-section">
+      <button id="info">
+        <span id="span1">Read my blog!</span>
+      </button>
       <button id="redirect">
         <span id="span1">About me!</span>
       </button>
-      <button id="redirect">
+      <button id="contact">
         <span id="span1">Contact me</span>
       </button>
     </section>

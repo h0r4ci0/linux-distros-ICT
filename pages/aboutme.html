@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>About Me</title>
+    <style>
+      body {
+        background-color: #eee;
+        font-family: sans-serif;
+        padding: 20px;
+        margin: 0 auto;
+        max-width: 800px;
+      }
+
+      h1 {
+        color: #333;
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+      .highlight {
+        color: #00a7e1;
+      }
+
+      button {
+        background-color: #6d72c3;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+
+      button:hover {
+        background-color: #8489c9;
+      }
+      .circle {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-image: url("ruta-a-tu-imagen");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>About Me</h1>
+    <img
+      src="../img/laura-ia.jpeg"
+      width="400px"
+      class="circle"
+      alt="Mi foto de perfil"
+    />
+
+    <h2>Hello! I'm Laura</h2>
+    <p>
+      Since I was little, I have loved technology and programming. But it was
+      when I discovered Linux that I really fell in love with this world. I am
+      fascinated by the freedom and flexibility it offers, and how you can
+      customize and adapt your operating system exactly to your needs.
+    </p>
+
+    <p>
+      I currently work as a web developer and I love using Linux in my
+      day-to-day life both at work and at home. I feel very fortunate to be able
+      to work in a field that I am passionate about and on a platform that gives
+      me so much freedom.
+    </p>
+
+    <p>
+      If you have any questions about Linux, don't hesitate to ask me through my
+      <a href="contact.html">contact page</a>! I love helping others discover
+      the world of computing and get the most out of their tools.
+    </p>
+
+    <p>Thanks for visiting my page!</p>
+
+    <p>¡Gracias por visitar mi página!</p>
+
+    <h2>Where am I?</h2>
+
+    <p>I have been living in Singpore for the past 6 years.</p>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d153398.83201954968!2d103.79770655820313!3d1.3553794000000063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1767b42b8ec9%3A0x400f7acaedaa420!2sSingapur!5e1!3m2!1ses!2ses!4v1678225065646!5m2!1ses!2ses"
+      width="600"
+      height="450"
+      style="border-radius: 10px"
+      allowfullscreen="true"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <br />
+
+    <button id="home">Home 🏠</button>
+
+    <script>
+      const contactButton = document.getElementById("home");
+      contactButton.addEventListener("click", function () {
+        window.location.href = "../index.html";
+      });
+    </script>
+  </body>
+</html>

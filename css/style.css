@@ -27,9 +27,8 @@ body {
     display: flex;
 }
 
-#redirect {
+#redirect, #contact, #info {
     border: 0;
-    /* background-image: linear-gradient(150deg, #9500ff, #09f, #00ddff); */
     background-image: linear-gradient(150deg, #0142a0, #8500ff, #411958);
     border-radius: 8px;
     color: #fff;
@@ -41,18 +40,18 @@ body {
     transition: 0.3s;
 }
 
-#redirect span {
+#redirect span, #contact span, #info span {
     background-color: #111;
     padding: 16px 24px;
     border-radius: 6px;
     transition: 0.3s;
 }
 
-#redirect:hover span {
+#redirect:hover span, #contact:hover span, #info:hover span {
     background: none;
 }
 
-#redirect:active {
+#redirect:active, #contact:active, #info:active {
     transform: scale(0.9);
 }
 
